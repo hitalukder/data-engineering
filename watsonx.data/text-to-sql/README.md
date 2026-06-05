@@ -156,8 +156,8 @@ uv --version
 #### 2. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd text2sql-service
+git clone git@github.com:hitalukder/data-engineering.git
+cd data-engineering/watsonx.data/text-to-sql
 ```
 
 #### 3. Download DB2 JDBC Driver
