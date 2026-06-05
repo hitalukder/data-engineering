@@ -1,0 +1,9 @@
+teacher_id,first_name,last_name,date_of_birth,gender,email,phone,department,title,specialization,hire_date,office_location,office_hours,salary_grade,status
+TCH001,Dr. Alan,Foster,1972-04-10,M,a.foster@university.edu,555-301-2001,Computer Science,Professor,Artificial Intelligence & Machine Learning,2005-08-15,Science Bldg Rm 301,Mon/Wed 2-4PM,G7,Active
+TCH002,Dr. Sarah,Mitchell,1978-11-22,F,s.mitchell@university.edu,555-301-2002,Mathematics,Associate Professor,Applied Statistics & Probability,2010-01-10,Math Bldg Rm 215,Tue/Thu 10-12PM,G6,Active
+TCH003,Dr. Robert,Chen,1968-07-05,M,r.chen@university.edu,555-301-2003,Physics,Professor,Quantum Mechanics & Thermodynamics,1998-08-20,Physics Bldg Rm 410,Mon/Fri 1-3PM,G8,Active
+TCH004,Dr. Linda,Patel,1980-02-14,F,l.patel@university.edu,555-301-2004,Data Science,Assistant Professor,Big Data & Cloud Computing,2015-08-01,Tech Hub Rm 112,Wed/Fri 3-5PM,G5,Active
+TCH005,Dr. James,Rivera,1975-09-30,M,j.rivera@university.edu,555-301-2005,Biology,Associate Professor,Molecular Biology & Genetics,2008-01-15,Life Sciences Rm 320,Tue/Thu 2-4PM,G6,Active
+TCH006,Dr. Karen,Thompson,1982-06-17,F,k.thompson@university.edu,555-301-2006,Chemistry,Assistant Professor,Organic & Analytical Chemistry,2016-08-10,Chemistry Bldg Rm 208,Mon/Wed 11AM-1PM,G5,Active
+TCH007,Prof. Michael,Sanders,1985-12-01,M,m.sanders@university.edu,555-301-2007,Computer Science,Lecturer,Software Engineering & Databases,2018-01-20,Tech Hub Rm 205,Fri 10AM-1PM,G4,Active
+TCH008,Dr. Nancy,Lee,1970-03-25,F,n.lee@university.edu,555-301-2008,Mathematics,Professor,Number Theory & Algebra,2000-08-25,Math Bldg Rm 310,Mon/Wed/Fri 9-10AM,G8,Active

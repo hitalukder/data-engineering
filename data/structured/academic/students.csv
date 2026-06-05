@@ -1,0 +1,16 @@
+student_id,first_name,last_name,date_of_birth,gender,email,phone,address,city,state,zip_code,enrollment_year,major,gpa,status
+STU001,Emma,Johnson,2001-03-15,F,emma.johnson@university.edu,555-201-1001,123 Maple St,Boston,MA,02101,2020,Computer Science,3.85,Active
+STU002,Liam,Williams,2000-07-22,M,liam.williams@university.edu,555-201-1002,456 Oak Ave,Cambridge,MA,02139,2019,Mathematics,3.60,Active
+STU003,Olivia,Brown,2002-01-10,F,olivia.brown@university.edu,555-201-1003,789 Pine Rd,Somerville,MA,02143,2021,Physics,3.90,Active
+STU004,Noah,Davis,2001-11-05,M,noah.davis@university.edu,555-201-1004,321 Elm St,Newton,MA,02458,2020,Data Science,3.40,Active
+STU005,Ava,Martinez,2000-09-18,F,ava.martinez@university.edu,555-201-1005,654 Birch Ln,Brookline,MA,02445,2019,Biology,3.75,Active
+STU006,William,Garcia,2003-04-27,M,william.garcia@university.edu,555-201-1006,987 Cedar Dr,Waltham,MA,02451,2022,Chemistry,3.20,Active
+STU007,Sophia,Wilson,2001-06-30,F,sophia.wilson@university.edu,555-201-1007,159 Walnut St,Medford,MA,02155,2020,Computer Science,3.95,Active
+STU008,James,Anderson,2002-12-14,M,james.anderson@university.edu,555-201-1008,753 Spruce Ave,Malden,MA,02148,2021,Mathematics,3.55,Active
+STU009,Isabella,Thomas,2000-02-08,F,isabella.thomas@university.edu,555-201-1009,246 Poplar Blvd,Quincy,MA,02169,2019,Physics,2.90,Probation
+STU010,Benjamin,Taylor,2003-08-19,M,benjamin.taylor@university.edu,555-201-1010,802 Hickory Ct,Arlington,MA,02474,2022,Data Science,3.70,Active
+STU011,Mia,Moore,2001-05-25,F,mia.moore@university.edu,555-201-1011,371 Magnolia Way,Belmont,MA,02478,2020,Biology,3.80,Active
+STU012,Elijah,Jackson,2002-10-03,M,elijah.jackson@university.edu,555-201-1012,584 Chestnut St,Watertown,MA,02472,2021,Chemistry,3.35,Active
+STU013,Charlotte,White,1999-06-12,F,charlotte.white@university.edu,555-201-1013,917 Sycamore Dr,Lexington,MA,02420,2018,Computer Science,3.65,Active
+STU014,Lucas,Harris,2002-03-29,M,lucas.harris@university.edu,555-201-1014,268 Willow Rd,Winchester,MA,01890,2021,Mathematics,2.75,Probation
+STU015,Amelia,Clark,2001-09-16,F,amelia.clark@university.edu,555-201-1015,435 Dogwood Ln,Woburn,MA,01801,2020,Data Science,3.88,Active

@@ -1,0 +1,13 @@
+course_id,course_code,course_name,department,credits,level,teacher_id,semester,academic_year,schedule_day,schedule_time,room,max_capacity,current_enrollment,prerequisites,delivery_mode,description
+CRS001,CS101,Introduction to Programming,Computer Science,3,Undergraduate,TCH001,Fall,2023-2024,Mon/Wed/Fri,09:00-10:00,Tech Hub 101,40,38,None,In-Person,Fundamentals of programming using Python
+CRS002,MA201,Calculus II,Mathematics,4,Undergraduate,TCH002,Fall,2023-2024,Tue/Thu,10:30-12:00,Math Bldg 105,35,32,MA101,In-Person,Integral calculus and series
+CRS003,PH301,Quantum Mechanics,Physics,4,Undergraduate,TCH003,Fall,2023-2024,Mon/Wed,14:00-15:30,Physics Bldg 201,30,25,PH201,In-Person,Introduction to quantum theory
+CRS004,DS401,Machine Learning,Data Science,3,Graduate,TCH001,Fall,2023-2024,Tue/Thu,13:00-14:30,Tech Hub 210,25,24,CS201 DS301,Hybrid,Supervised and unsupervised learning methods
+CRS005,BL201,Cell Biology,Biology,3,Undergraduate,TCH005,Fall,2023-2024,Mon/Wed/Fri,11:00-12:00,Life Sciences 110,40,37,BL101,In-Person,Structure and function of eukaryotic cells
+CRS006,CH201,Organic Chemistry,Chemistry,4,Undergraduate,TCH006,Fall,2023-2024,Tue/Thu,08:30-10:00,Chemistry Bldg 150,30,28,CH101,In-Person,Reactions and mechanisms of organic compounds
+CRS007,CS301,Database Systems,Computer Science,3,Undergraduate,TCH007,Fall,2023-2024,Wed/Fri,13:00-14:30,Tech Hub 305,35,30,CS201,In-Person,Relational databases and SQL
+CRS008,MA401,Linear Algebra,Mathematics,3,Undergraduate,TCH008,Fall,2023-2024,Mon/Wed/Fri,10:00-11:00,Math Bldg 205,35,33,MA201,In-Person,Vector spaces matrices and linear transformations
+CRS009,DS301,Statistical Modeling,Data Science,3,Undergraduate,TCH002,Fall,2023-2024,Mon/Wed,15:00-16:30,Tech Hub 115,30,27,MA201 DS201,Hybrid,Regression analysis and statistical inference
+CRS010,CS201,Data Structures & Algorithms,Computer Science,3,Undergraduate,TCH001,Spring,2023-2024,Tue/Thu,11:00-12:30,Tech Hub 101,40,36,CS101,In-Person,Arrays trees graphs and sorting algorithms
+CRS011,PH101,Classical Mechanics,Physics,3,Undergraduate,TCH003,Spring,2023-2024,Mon/Wed/Fri,09:00-10:00,Physics Bldg 105,40,39,None,In-Person,Newtonian mechanics kinematics and dynamics
+CRS012,BL401,Genetics,Biology,3,Undergraduate,TCH005,Spring,2023-2024,Tue/Thu,14:00-15:30,Life Sciences 210,30,28,BL201,In-Person,Mendelian and molecular genetics

@@ -1,0 +1,31 @@
+grade_id,enrollment_id,student_id,course_id,academic_year,semester,assignment_score,midterm_score,final_exam_score,project_score,participation_score,total_score,letter_grade,grade_points,pass_fail,graded_by,graded_date,remarks
+GRD001,ENR001,STU001,CRS001,2023-2024,Fall,88,85,90,92,95,89.2,A-,3.70,Pass,TCH001,2024-01-10,Excellent consistent performance
+GRD002,ENR002,STU001,CRS007,2023-2024,Fall,90,88,92,95,90,91.0,A,4.00,Pass,TCH007,2024-01-12,Outstanding database design project
+GRD003,ENR003,STU001,CRS010,2023-2024,Spring,92,90,94,96,93,93.0,A,4.00,Pass,TCH001,2024-05-20,Top of class in algorithm complexity
+GRD004,ENR004,STU002,CRS002,2023-2024,Fall,78,80,76,82,85,79.8,B+,3.30,Pass,TCH002,2024-01-11,Good understanding of series convergence
+GRD005,ENR005,STU002,CRS008,2023-2024,Fall,82,79,80,85,80,81.0,B,3.00,Pass,TCH008,2024-01-13,Solid grasp of matrix operations
+GRD006,ENR006,STU003,CRS003,2023-2024,Fall,95,97,96,98,95,96.4,A,4.00,Pass,TCH003,2024-01-10,Exceptional quantum problem solving
+GRD007,ENR007,STU003,CRS011,2023-2024,Spring,94,95,93,97,96,95.0,A,4.00,Pass,TCH003,2024-05-22,Strong mechanics intuition
+GRD008,ENR008,STU004,CRS001,2023-2024,Fall,72,70,74,78,75,73.8,C+,2.30,Pass,TCH001,2024-01-10,Needs improvement in OOP concepts
+GRD009,ENR009,STU004,CRS009,2023-2024,Fall,76,74,78,80,72,76.4,B,3.00,Pass,TCH002,2024-01-14,Good regression analysis skills
+GRD010,ENR010,STU004,CRS004,2023-2024,Fall,80,82,79,84,78,80.6,B,3.00,Pass,TCH001,2024-01-15,Decent ML model implementation
+GRD011,ENR011,STU005,CRS005,2023-2024,Fall,88,86,89,90,92,88.6,A-,3.70,Pass,TCH005,2024-01-11,Strong lab performance
+GRD012,ENR012,STU005,CRS012,2023-2024,Spring,90,88,91,93,89,90.4,A,4.00,Pass,TCH005,2024-05-21,Excellent genetics analysis
+GRD013,ENR013,STU006,CRS006,2023-2024,Fall,68,65,70,72,74,69.4,D+,1.30,Pass,TCH006,2024-01-12,Struggles with reaction mechanisms
+GRD014,ENR014,STU007,CRS001,2023-2024,Fall,98,97,99,100,98,98.4,A,4.00,Pass,TCH001,2024-01-10,Highest score in class
+GRD015,ENR015,STU007,CRS010,2023-2024,Spring,97,96,98,99,97,97.6,A,4.00,Pass,TCH001,2024-05-20,Exceptional algorithmic thinking
+GRD016,ENR016,STU007,CRS004,2023-2024,Fall,96,95,97,98,94,96.2,A,4.00,Pass,TCH001,2024-01-15,Best ML project in cohort
+GRD017,ENR017,STU008,CRS002,2023-2024,Fall,80,78,82,84,83,81.2,B,3.00,Pass,TCH002,2024-01-11,Good integral calculus work
+GRD018,ENR018,STU008,CRS008,2023-2024,Spring,83,81,84,86,85,83.8,B,3.00,Pass,TCH008,2024-05-23,Consistent linear algebra performance
+GRD019,ENR019,STU009,CRS003,2023-2024,Fall,58,55,60,62,65,59.2,D,1.00,Pass,TCH003,2024-01-10,Academic warning; needs tutoring
+GRD020,ENR021,STU010,CRS009,2023-2024,Fall,85,83,87,88,86,85.8,B+,3.30,Pass,TCH002,2024-01-14,Strong statistical modeling skills
+GRD021,ENR022,STU010,CRS004,2023-2024,Spring,88,90,89,91,87,89.1,A-,3.70,Pass,TCH001,2024-05-21,Great deep learning implementation
+GRD022,ENR023,STU011,CRS005,2023-2024,Fall,89,87,90,92,93,90.0,A,4.00,Pass,TCH005,2024-01-11,Exceptional microscopy work
+GRD023,ENR024,STU011,CRS012,2023-2024,Fall,86,84,88,89,90,87.6,A-,3.70,Pass,TCH005,2024-01-13,Strong Mendelian genetics analysis
+GRD024,ENR025,STU012,CRS006,2023-2024,Fall,72,70,74,76,78,73.6,C+,2.30,Pass,TCH006,2024-01-12,Average performance; office hours recommended
+GRD025,ENR026,STU013,CRS007,2023-2024,Fall,84,82,86,88,87,85.2,B+,3.30,Pass,TCH007,2024-01-12,Good ER diagram and normalization work
+GRD026,ENR027,STU013,CRS010,2023-2024,Spring,82,80,85,87,84,84.0,B,3.00,Pass,TCH001,2024-05-20,Solid graph algorithm understanding
+GRD027,ENR028,STU014,CRS002,2023-2024,Fall,65,62,68,70,72,67.2,D+,1.30,Pass,TCH002,2024-01-11,At risk; math tutoring assigned
+GRD028,ENR029,STU014,CRS008,2023-2024,Fall,60,58,64,66,70,63.2,D,1.00,Pass,TCH008,2024-01-13,Probation; advisor notified
+GRD029,ENR030,STU015,CRS009,2023-2024,Fall,91,90,93,94,92,92.0,A,4.00,Pass,TCH002,2024-01-14,Excellent regression modeling
+GRD030,ENR031,STU015,CRS004,2023-2024,Spring,93,92,94,96,91,93.3,A,4.00,Pass,TCH001,2024-05-21,Strong ML pipeline development

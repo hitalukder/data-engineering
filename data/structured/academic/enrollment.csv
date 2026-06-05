@@ -1,0 +1,32 @@
+enrollment_id,student_id,course_id,enrollment_date,enrollment_status,payment_status,attendance_pct,midterm_submitted,final_submitted,withdrawal_date,notes
+ENR001,STU001,CRS001,2023-08-25,Enrolled,Paid,95,Yes,Yes,,
+ENR002,STU001,CRS007,2023-08-25,Enrolled,Paid,92,Yes,Yes,,
+ENR003,STU001,CRS010,2024-01-20,Enrolled,Paid,97,Yes,Yes,,
+ENR004,STU002,CRS002,2023-08-25,Enrolled,Paid,88,Yes,Yes,,
+ENR005,STU002,CRS008,2023-08-25,Enrolled,Paid,85,Yes,Yes,,
+ENR006,STU003,CRS003,2023-08-25,Enrolled,Paid,98,Yes,Yes,,
+ENR007,STU003,CRS011,2024-01-20,Enrolled,Paid,96,Yes,Yes,,
+ENR008,STU004,CRS001,2023-08-25,Enrolled,Paid,78,Yes,Yes,,
+ENR009,STU004,CRS009,2023-08-25,Enrolled,Paid,80,Yes,Yes,,
+ENR010,STU004,CRS004,2023-08-25,Enrolled,Paid,82,Yes,Yes,,
+ENR011,STU005,CRS005,2023-08-25,Enrolled,Paid,91,Yes,Yes,,
+ENR012,STU005,CRS012,2024-01-20,Enrolled,Paid,93,Yes,Yes,,
+ENR013,STU006,CRS006,2023-08-25,Enrolled,Paid,74,Yes,Yes,,
+ENR014,STU007,CRS001,2023-08-25,Enrolled,Paid,99,Yes,Yes,,
+ENR015,STU007,CRS010,2024-01-20,Enrolled,Paid,98,Yes,Yes,,
+ENR016,STU007,CRS004,2023-08-25,Enrolled,Paid,97,Yes,Yes,,
+ENR017,STU008,CRS002,2023-08-25,Enrolled,Paid,83,Yes,Yes,,
+ENR018,STU008,CRS008,2024-01-20,Enrolled,Paid,86,Yes,Yes,,
+ENR019,STU009,CRS003,2023-08-25,Enrolled,Paid,60,Yes,Yes,,Academic warning issued
+ENR020,STU009,CRS011,2023-08-25,Withdrawn,Paid,45,Yes,No,2023-10-15,Medical withdrawal
+ENR021,STU010,CRS009,2023-08-25,Enrolled,Paid,89,Yes,Yes,,
+ENR022,STU010,CRS004,2024-01-20,Enrolled,Paid,91,Yes,Yes,,
+ENR023,STU011,CRS005,2023-08-25,Enrolled,Paid,94,Yes,Yes,,
+ENR024,STU011,CRS012,2023-08-25,Enrolled,Paid,90,Yes,Yes,,
+ENR025,STU012,CRS006,2023-08-25,Enrolled,Paid,77,Yes,Yes,,
+ENR026,STU013,CRS007,2023-08-25,Enrolled,Paid,88,Yes,Yes,,
+ENR027,STU013,CRS010,2024-01-20,Enrolled,Paid,85,Yes,Yes,,
+ENR028,STU014,CRS002,2023-08-25,Enrolled,Pending,70,Yes,Yes,,Scholarship pending
+ENR029,STU014,CRS008,2023-08-25,Enrolled,Paid,65,Yes,Yes,,Tutoring recommended
+ENR030,STU015,CRS009,2023-08-25,Enrolled,Paid,93,Yes,Yes,,
+ENR031,STU015,CRS004,2024-01-20,Enrolled,Paid,95,Yes,Yes,,
