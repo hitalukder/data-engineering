@@ -1,0 +1,95 @@
+# Milvus standalone values for IBM Cloud OpenShift + IBM COS.
+# Rendered by deploy-milvus.sh — ${VAR} placeholders are substituted via envsubst.
+
+cluster:
+  enabled: false
+
+image:
+  all:
+    pullPolicy: IfNotPresent
+
+# Mount the TLS cert/key from the milvus-tls secret into every Milvus
+# component (standalone here). Path referenced by extraConfigFiles below.
+volumes:
+  - name: milvus-tls
+    secret:
+      secretName: milvus-tls
+volumeMounts:
+  - name: milvus-tls
+    mountPath: /etc/milvus/certs
+    readOnly: true
+
+standalone:
+  replicas: 1
+  resources:
+    requests:
+      cpu: "${CPU_REQUEST}"
+      memory: "${MEM_REQUEST}"
+    limits:
+      cpu: "${CPU_LIMIT}"
+      memory: "${MEM_LIMIT}"
+  persistence:
+    enabled: true
+    persistentVolumeClaim:
+      storageClass: ${STORAGE_CLASS}
+      accessModes: ReadWriteOnce
+      size: ${WAL_SIZE}
+
+etcd:
+  replicaCount: 1
+  persistence:
+    storageClass: ${STORAGE_CLASS}
+    size: ${ETCD_SIZE}
+
+# Disable in-cluster MinIO — we use IBM COS instead.
+minio:
+  enabled: false
+
+externalS3:
+  enabled: true
+  host: ${COS_ENDPOINT}
+  port: 443
+  useSSL: true
+  bucketName: ${COS_BUCKET}
+  rootPath: milvus
+  useIAM: false
+  cloudProvider: aws
+  iamEndpoint: ""
+  region: ""
+  useVirtualHost: false
+  # accessKey/secretKey are passed via `helm --set` from .env so they don't
+  # land in the rendered values file on disk. The chart writes them into the
+  # milvus configmap regardless — that's the only mechanism v5.0.x supports.
+
+# Disable all bundled message queues. Milvus 2.6 standalone uses embedded
+# Woodpecker (enabled by default via `streaming.enabled: true` in chart defaults).
+pulsar:
+  enabled: false
+pulsarv3:
+  enabled: false
+kafka:
+  enabled: false
+
+# Enable user/password authentication.
+extraConfigFiles:
+  user.yaml: |
+    common:
+      security:
+        authorizationEnabled: true
+        # tlsMode 1 = server-side TLS on the gRPC port (19530). Required for
+        # the passthrough Route to negotiate h2 ALPN end-to-end.
+        tlsMode: 1
+    tls:
+      serverPemPath: /etc/milvus/certs/tls.crt
+      serverKeyPath: /etc/milvus/certs/tls.key
+    # REST is disabled. Milvus 2.6 refuses to serve REST + gRPC + TLS on the
+    # same port (19530), and there's no separate proxy.http.port. To re-enable
+    # REST, flip this to true AND set common.security.tlsMode: 0 above (loses
+    # gRPC-over-passthrough though).
+    proxy:
+      http:
+        enabled: false
+
+service:
+  type: ClusterIP
+  port: 19530
